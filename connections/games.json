@@ -1,0 +1,30 @@
+[
+    {
+        "categories": ["Playfully bother", "Apex", "Words for Specific Quantities", "What 'X' Might Mean"],
+        "wordList": ["josh", "kid", "rib", "tease", "height", "max", "peak", "top", "dozen", "gross", "pair", "score", "adult", "kiss", "ten", "times"]
+    },
+    {
+        "categories": ["Gift-giving accessories", "Dating app actions", "Cool, in slang", "Lucky ____"],
+        "wordList": ["bow", "box", "card", "wrapping", "block", "match", "message", "swipe", "fire", "lit", "sick", "tight", "break", "charm", "duck", "strike"]
+    },
+    {
+        "categories": ["Move through the air", "Hidden listening devices", "Select, as a box on a form", "Rappers minus first letter"],
+        "wordList": ["float", "fly", "glide", "soar", "bug", "mike", "tap", "wire", "check", "mark", "tick", "X", "40", "cole", "pain", "tip"]
+    },
+    {
+        "categories": ["B.L.T. ingredients", "Obstruct", "Baseball stats", "Small ___"],
+        "wordList": ["bread", "bacon", "lettuce", "tomato", "block", "clog", "jam", "stop", "double", "hit", "run", "walk", "fry", "talk", "wonder", "world"]
+    },
+    {
+        "categories": ["Gardening nouns/verbs", "Kinds of salads", "Classic game shows, familiarly", "W+ vowel sound"],
+        "wordList": ["plant", "seed", "water", "weed", "caesar", "greek", "green", "wedge", "feud", "millionaire", "pyramid", "wheel", "way", "wee", "why", "whoa"]
+    },
+    {
+        "categories": ["Organization", "Sharpness, as of an image", "Places in France", "Happy New Year!"],
+        "wordList": ["club", "group", "party", "team", "clarity", "definition", "detail", "resolution", "champagne", "dijon", "nice", "tours", "ball", "countdown", "fireworks", "kiss"]
+    },
+    {
+        "categories": ["Black and white animals", "Sequence", "Heteronyms", "___ trap"],
+        "wordList": ["orca", "panda", "skunk", "zebra", "chain", "series", "string", "train", "bass", "dove", "desert", "wind", "bear", "sand", "speed", "tourist"]
+    }
+]

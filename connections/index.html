@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <div class="intro">
+            <div>
+                <img id="logo" src="icon.svg" alt="icon" style="width:50px;height:50px">
+                <p id="title1">Connections</p>
+                <p id="subtitle">Group words that share a common thread.</p>
+                <button id="playButton" onclick="play()">Play</button>
+                <p id="date"></p>
+                <p id="author">Sus knockoff</p>    
+            </div>
+        </div>
+
+        <div class="header">
+            <span id="title2">Connections</span>
+            <span id="date2"></span>
+        </div>
+
+        <div class="help">
+            <div class="helpMiddle">
+                <!--- <img id="helpIcon" src="help.svg" alt="help icon"> -->
+            </div>
+        </div>
+
+        <p id="notification"></p>
+
+        <p id="instructions">Create four groups of four!</p>
+        
+        <div class="board">
+            <div id="r1">
+                <div class = "bt">
+                    <button class="w c1" id="b0">aa</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c2" id="b1">aa</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c3" id="b2">aa</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c4" id="b3">aa</button>
+                </div>
+            </div>
+
+            <div id="r2">
+                <div class = "bt">
+                    <button class="w c1" id="b4">bb</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c2" id="b5">bb</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c3" id="b6">bb</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c4" id="b7">bb</button>
+                </div>
+            </div>
+
+            <div id="r3">
+                <div class = "bt">
+                    <button class="w c1" id="b8">cc</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c2" id="b9">cc</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c3" id="b10">cc</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c4" id="b11">cc</button>
+                </div>
+            </div>
+            
+            <div id="r4">
+                <div class = "bt">
+                    <button class="w c1" id="b12">dd</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c2" id="b13">dd</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c3" id="b14">dd</button>
+                </div>
+                <div class = "bt">
+                    <button class="w c4" id="b15">dd</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mistakes">
+            <p id="mistakesText">Mistakes remaining:</p>
+            <span class="life" id="life1"></span>
+            <span class="life" id="life2"></span>
+            <span class="life" id="life3"></span>
+            <span class="life" id="life4"></span>
+        </div>
+
+        <div class="tools">
+            <button class="toolButtons" id="shuffle">Shuffle</button>
+            <button class="toolButtons" id="deselect">Deselect All</button>
+            <button class="toolButtons" id="submit">Submit</button>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>

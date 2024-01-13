@@ -1,0 +1,272 @@
+@font-face {
+    font-family: "Franklin Gothic Regular";
+    src: url('franklingothicregular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Franklin Gothic ITC";
+    src: url('franklingothicitc.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Franklin Gothic ITC Demi";
+    src: url('Franklin Gothic ITC Demi BT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Egyptian Slate Light";
+    src: url('EgyptianSlateLight.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: "Rude Slab SemiCondensed Bold";
+    src: url('Rude Slab SemiCondensed Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Franklin Gothic ITC Book BT";
+    src: url('Franklin Gothic ITC Book BT.ttf') format('truetype');
+}
+
+.intro {
+    text-align: center;
+    background-color: #B3A7FF;
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 100%;
+    border-top: #d4d4d4 solid 1px;
+    border-bottom: #d4d4d4 solid 1px;
+}
+
+.helpMiddle {
+    width: 80%;
+    display: flex;
+    justify-content: right;
+}
+
+.board {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: 344px;
+    max-width: max-content;
+    max-height: max-content;
+}
+
+.bt {
+    width: 100%;
+    height: 100%;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w {
+    background-color: #EFEFE6;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: "Franklin Gothic Regular";
+    cursor: pointer;
+}
+
+#r1, #r2, #r3, #r4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 15vh;
+    width: 624px;
+    height: 86px;
+    margin: 4px;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.mistakes {
+    margin-top: 0;
+    margin: auto;
+    width: 800px;
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolButtons {
+    height: 3em;
+    font-size: 16px;
+    border-radius: 32px;
+    border: solid 1px #000;
+    padding: 15px;
+    background-color: #FFFFFF;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: "Franklin Gothic ITC";
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#submit {
+    border-color: #7F7F7F;
+    color: #7F7F7F;
+}
+
+.life {
+    background-color: #5A594E;
+    width: 16px;
+    height: 16px;
+    border-radius: 1000px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#title1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+    font-size: 40px;
+    font-family: "Rude Slab SemiCondensed Bold";
+}
+
+#playButton {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: .05em;
+    background-color: #000;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#subtitle {
+    margin: 0;
+    padding: 0;
+    margin-top: 6px;
+    font-size: 20px;
+    font-family: "Egyptian Slate Light";
+    font-weight: bolder;
+}
+
+#date {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: "Franklin Gothic ITC Demi";
+}
+
+#author {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Franklin Gothic ITC";
+}
+
+#helpIcon {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.header {
+    width: 800px;
+    max-width: 100vw;
+    padding: 2em;
+}
+
+#title2 {
+    font-family: "Rude Slab SemiCondensed Bold";
+    font-size: 42px;
+    padding-right: 0.5em;
+}
+
+#date2 {
+    font-family: "Franklin Gothic ITC Book BT";
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+#instructions {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Franklin Gothic ITC";
+}
+
+#mistakesText {
+    margin-right: 5px;
+    font-size: 16px;
+    font-family: "Franklin Gothic ITC";
+}
+
+button > * {
+    pointer-events: none;
+}
+
+#deselect {
+    width: auto;
+}
+
+#answer1, #answer2, #answer3, #answer4 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+#notification {
+    opacity: 0;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    font-size: 18px;
+    font-family: "Franklin Gothic ITC";
+    color: #FFFFFF;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 6px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: default;
+}
